@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="stylesheet.css">
+    <title>Portofolio</title>
+</head>
+<body>
+    
+  <nav>
+        <div class="logo">Solo's Portofolio</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact and Info</a>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <section class="hero">
+            <h1>Contact and Info</h1>
+            <a href="biasolo0611@gmail.com">Email Me</a> <br>
+            <a href="https://www.linkedin.com/in/solomon07/">Linkedin</a> <br>
+            <a href="https://drive.google.com/uc?export=download&id=1fO8c3X7dG6buNksdGkzGIAuWYbrql2sM" target="_blank" download>Download CV</a> <br>
+            <a href="https://github.com/Solomon-06">GitHub</a> <br>
+            <h1>Credentials:</h1>
+            <p>• FreeCodeCamp: <a href="https://www.freecodecamp.org/certification/solomon11/responsive-web-design">Responsive Web Design Certificate</a></p>
+             
+            
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Solo - Frontend Developer. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const skills = document.querySelectorAll('.skill');
+            
+            skills.forEach(skill => {
+                skill.addEventListener('mouseenter', function() {
+                    this.style.transform = 'scale(1.2)';
+                });
+                
+                skill.addEventListener('mouseleave', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
