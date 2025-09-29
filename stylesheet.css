@@ -26,9 +26,9 @@
             z-index: -1;
         }
 
-a {
+       a {
     color: #4a9eff !important;
-}
+        }
 
        nav {
     display: flex;
